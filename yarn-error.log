@@ -1,0 +1,40 @@
+Arguments: 
+  /usr/local/bin/node /opt/homebrew/bin/yarn add uWebSockets.js@uNetworking/uWebSockets.js#v20.10.0
+
+PATH: 
+  /Users/jilei/opt/anaconda3/bin:/Users/jilei/opt/anaconda3/condabin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Users/jilei/Library/Application Support/JetBrains/Toolbox/scripts
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.17.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://github.com/uNetworking/uWebSockets.js: ETIMEDOUT
+      at Timeout._onTimeout (/opt/homebrew/lib/node_modules/yarn/lib/cli.js:141543:19)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7)
+
+npm manifest: 
+  {
+    "name": "gameet-server-ts",
+    "version": "1.0.0",
+    "description": "tsup src/WebSocketServer.ts --format esm,cjs,iife",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
